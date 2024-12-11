@@ -97,7 +97,7 @@
     "yaml": "^2.6.1"
   },
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/style.css -o ./src/css/output.css --watch"
+    "dev": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch"
   },
   "author": "",
   "license": "ISC",
