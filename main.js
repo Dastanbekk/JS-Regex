@@ -4,8 +4,8 @@
 // console.log(numRegex.test(phoneNum))
 
 // 2)
-// let web = "httt safasfhksf sdfhsjdfjshdfshf";
-// let webreg = /[https]/gm;
+// let web = "https";
+// let webreg = /(https?)/gm;
 // console.log(webreg.test(web));
 
 // 3)
