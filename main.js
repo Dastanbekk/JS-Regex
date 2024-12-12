@@ -4,9 +4,11 @@
 // console.log(numRegex.test(phoneNum))
 
 // 2)
-// let web = "https";
-// let webreg = /(https?)/gm;
-// console.log(webreg.test(web));
+// let web2 = "htt -fdksdjfksjfkjs";
+// let web = "https-fsdgdgdfgfd";
+// let webreg = /^(https?)[ -_].{1,}/gm;
+// console.log(webreg.test(web)); true
+// console.log(webreg.test(web2)) false
 
 // 3)
 // let num = "sdadsasd";
@@ -22,3 +24,4 @@
 // let passport = "AB123456";
 // let passReg = /[A-Z][A-Z]\d{6}/gm;
 // console.log(passReg.test(passport));
+
